@@ -1,4 +1,5 @@
 /* stylesheet.css */
+@font-face
 {
 font-family: CenturyGothic;
 src: url("http://scripto.co.in/web/centurygothicfont.ttf"),
@@ -15,5 +16,5 @@ div.sidebar {
     overflow:auto;
     left:50px;
 }
-@font-face
+
 
