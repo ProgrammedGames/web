@@ -1,13 +1,8 @@
 /* stylesheet.css */
-@font-face
-{
-font-family: Century Gothic;
-src: url("http://scripto.co.in/web/centurygothicfont.ttf"),
-}
 body {
     background-color: #ffffff;
     color: #000000;
-    font-family: Century Gothic, Times, serif;
+    font-family: Ariel, Times, serif;
 }
 div.sidebar {
     background-color:#ffffff;
