@@ -1,9 +1,28 @@
 <head>
-<link rel = "stylesheet" type = "text/css" href = "http://scripto.co.in/web/stylesheet.css"/>
-</head>
+<style> 
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
 
+input[type=text]:focus {
+    width: 100%;
+}
+</style>
 <body>
-
+<form>
+  <input type="text" name="search" placeholder="Search my blog...">
+</form>
       <h2>scripto.co.in</h2>
       <h3>Jacob's Blog</h3>
       <input type="text" name="search" placeholder="Search my blog...">
