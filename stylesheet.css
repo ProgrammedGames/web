@@ -11,5 +11,11 @@ div.sidebar {
     overflow:auto;
     left:50px;
 }
-
-
+.button {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    cursor: pointer;
+}
+.reg {background-color: #595959;}
+.reg:hover {background-color: #000000;}
