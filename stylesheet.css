@@ -11,11 +11,22 @@ div.sidebar {
     overflow:auto;
     left:50px;
 }
-.button {
-    border: none;
-    color: white;
-    padding: 14px 28px;
-    cursor: pointer;
+/* unvisited link */
+a:link {
+    color: #4D4D4D;
 }
-.reg {background-color: #595959;}
-.reg:hover {background-color: #000000;}
+
+/* visited link */
+a:visited {
+    color: #4D4D4D;
+}
+
+/* mouse over link */
+a:hover {
+    color: #333333;
+}
+
+/* selected link */
+a:active {
+    color: #333333;
+}
